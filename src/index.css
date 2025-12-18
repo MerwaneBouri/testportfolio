@@ -1,1 +1,14 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+/* ... */
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* background-color: #1a1a1a;  <-- ON A ENLEVÉ ÇA */
+  position: relative; /* Pour que le z-index fonctionne */
+  z-index: 1;         /* On s'assure que le texte est DEVANT la 3D */
+}
