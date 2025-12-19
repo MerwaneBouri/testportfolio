@@ -59,8 +59,8 @@ export default function ThreeBackground() {
       requestAnimationFrame(animate);
 
       // On fait tourner tout l'univers doucement
-      particles.rotation.y += 0.00005;
-      particles.rotation.x += 0.00002;
+      particles.rotation.y += 0.0003;
+      particles.rotation.x += 0.0001;
 
       renderer.render(scene, camera);
     };

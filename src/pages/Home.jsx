@@ -7,12 +7,11 @@ export default function Home() {
       
       {/* Le Titre : Gros, Gras, et avec un petit dégradé subtil */}
       <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight text-white">
-        Creative <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">Developer</span>
+        Software <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">Developer</span>
       </h1>
 
       {/* Le Sous-titre : Description courte */}
       <p className="text-gray-400 text-lg md:text-xl max-w-2xl mb-10">
-        J'explore la fusion entre le code et le design. 
         Bienvenue dans mon laboratoire d'expérimentations WebGL et React.
       </p>
 
